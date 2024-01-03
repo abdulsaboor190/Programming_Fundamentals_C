@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    position: relative; /* Add relative positioning to the body */
+
+}
+
+body::before {
+    content: '';
+    position: fixed; /* Fixed positioning to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the pseudo-element below the content */
+    background: url('iba.jpg') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(4px); /* Apply the blur effect only to the pseudo-element */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-container {
+    border-radius: 90px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Add a transparent background for better readability */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+  }
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+   
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+

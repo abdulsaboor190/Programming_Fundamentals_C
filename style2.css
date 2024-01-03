@@ -1,0 +1,163 @@
+/* Main body styles */
+body {
+  background-color: #333333; /* Very Dark Charcoal */
+  color: #ffffff; /* Set text color to white for better readability */
+  /* Other CSS styles for your website */
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: green;
+  padding: 10px;
+}
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation styles */
+nav {
+  height: 60px;
+  background-color: #34495e; /* Slightly Lighter Blue-Gray */
+  color: #ffffff; 
+  display: grid;
+  place-items: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+}
+nav ul a {
+  display: inline inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+nav ul a:hover {
+  background-color: gray;
+}
+
+/* Item grid styles */
+.items {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px 30px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+/* Item image styles */
+.item img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.5s ease, border 0.3s ease; /* Add transition for the border property */
+  border: 2px solid transparent; /* Initial transparent border */
+  border-radius: 10px; /* Optional: Add rounded corners for a more elegant look */
+}
+
+/* Hover effect for item image */
+.item img:hover {
+  transform: scale(1.5);
+  border: 2px; /* Change border color on hover (adjust color as needed) */
+}
+
+/* Item title styles */
+.item h4 {
+  padding: 5px;
+  color: gray;
+  text-align: left;
+}
+
+/* Item price styles */
+.item h5 {
+  padding: 5px;
+  color: gray;
+  text-align: left;
+}
+
+/* Item button styles */
+.item button {
+  background-color: gray;
+  color: bisque;
+  border-radius: 7px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Hover effect for item button */
+.item button:hover {
+  background-color: blue;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #34495e; /* Slightly Lighter Blue-Gray */
+  color: #ffffff; 
+  position: absolute;
+  text-align: right;
+  top: 1550px;
+  width: 1350px;
+  height: 250px;
+  display: flex;
+  color: white;
+}
+
+/* Container styles */
+.container {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  background-color: aliceblue;
+  right: 50%;
+}
+
+/* Social link styles */
+.social a:nth-child(1) {
+  position: absolute;
+  right: 0px;
+  display: inline-flex;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27, 27, 28);
+  margin: 10px;
+  box-shadow: 0 10px rgb(72, 7, 119);
+  border-radius: 50%;
+  color: white;
+}
+
+.social a:nth-child(2) {
+  position: absolute;
+  right: 100px;
+  display: inline-flex;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 26, 27);
+  margin: 20px;
+  box-shadow: 0 10px rgb(72, 7, 119);
+  border-radius: 50%;
+  color: white;
+}
+
+/* Footer image styles */
+.footer img:nth-child(1) {
+  position: absolute;
+  left: px;
+}
+
+.footer img:nth-child(2) {
+  position: absolute;
+  left: 450px;
+}

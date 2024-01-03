@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+}
+
+.background-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative; /* Add this line */
+}
+
+.black-divider h2 {
+    margin-top: 0;
+}
+.black-divider {
+    background-color: #111;
+    height: 250px; /* Adjust the height as needed */
+    margin: 0; /* Add this line to reset margin */
+    padding: 0; /* Add this line to reset padding */
+}
+
+
+.website-description {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 470px; /* Adjust the margin-top as needed */
+    margin-bottom: 0; /* Add this line to remove the bottom margin */
+font-family: 'Lato';
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent !important;
+    text-align: center;
+    align-items: center;
+}
+h2{
+color: white;
+text-align: center;
+}
+
+.about-us {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px 0 0;
+    background-color: transparent !important;
+    border: none;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+.footer {
+    background-color:  #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+}
+
+.creator-names, .contact-us {
+    max-width: 200px;
+    text-align: left;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Add these styles for the new section */
+.production-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #111;
+    color: white;
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.production-image {
+    width: 400px; /* Adjust the width of the image */
+    height: auto;
+}
+
+.production-info {
+    max-width: 500px;
+    text-align: left;
+    padding: 0 20px; /* Add padding to space the text from the image */
+}
+
+.production-info h2 {
+    color: white;
+    font-size: 36px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.production-info p {
+    font-size: 18px; /* Adjust font size for paragraph */
+    line-height: 1.5; /* Add line height for better readability */
+}
+
+/* Adjust other styles as needed */
